@@ -1,10 +1,10 @@
 class IOString():
   def __init__(self):
-   self.str1 = ""
+   self.str2 = ""
   def get_String(self):
-    self.str1 = input("enter string")
+    self.str2 = input("enter string")
   def print_String (self):
-      print("result is :", self.str1.upper())
-str1 = IOString()
-str1.get_String()
-str1.print_String()
+      print("result is :", self.str2.upper())
+str2 = IOString()
+str2.get_String()
+str2.print_String()
